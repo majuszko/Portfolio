@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maja Mrozińska Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+    <link href="main.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+          <h6 style="color:#191919; transform: translateX(-15%);">Hello, my name is</h6>
+        <h1 style="font-family: 'Roboto';">Maja Mrozińska</h1>
+        <p style="color:#191919;">Below you can find my recent Unity projects.</p>
+      </div>
+    </header>
+
+    <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Projects</h1>
+
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right">
+              <img src="images/multi/1.png" alt="">
+            </div>
+            <div class="portfolio-description">
+              
+              <h1>Multiplayer</h1>
+              <p>
+                My first online multiplayer with Photon Unity Networking. You can add your username, create rooms and join them. For the camera movement I decided to use Cinemachine. The next task is to add a better map, chat and possibility to change colors.
+              </p>
+              <a href="https://majuszko.github.io/Multiplayer_test/" class="cta">PLAY NOW</a>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-description has-margin-right">
+              
+              <h1>Slider</h1>
+              <p>
+                A ZigZag inspired project. That was my first attempt to make a path, that is randomly generated everytime you play.
+              </p>
+              <a href="https://majuszko.github.io/Slider/" class="cta">PLAY NOW</a>
+            </div>
+            <div class="portfolio-img">
+              <img src="images/slider/1.png" alt="">
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right">
+              <img src="images/pong/1.png" alt="">
+            </div>
+            <div class="portfolio-description">
+              
+              <h1>Pong</h1>
+              <p>
+                A classic Pong. This was my first finished project in Unity. You can play in two modes: Singleplayer, which allows you to play against a simple AI and Multiplayer to play against your friend locally.
+              </p>
+              <a href="https://majuszko.github.io/Pong/" class="cta">PLAY NOW</a>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-description has-margin-right">
+              
+              <h1>Minesweeper</h1>
+              <p>
+                Classic Minesweeper. My main motivation for making this game was to understand the algorithm of placing mines on the minefield in the game. There's also a stopwatch to record the time of the game and a text showing how many mines are left in the minefield.
+              </p>
+              <a href="https://majuszko.github.io/Minesweeper/" class="cta">PLAY NOW</a>
+            </div>
+            <div class="portfolio-img">
+              <img src="images/saper/3.png" alt="">
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right">
+              <img src="images/ninja/1.png" alt="">
+            </div>
+            <div class="portfolio-description">
+              
+              <h1>Fruit Slice</h1>
+              <p>
+                A Fruit Ninja inspired project. I decided to create this simple clone to understand better how PlayerPrefs works. Like in the original, slicing a bomb ends the game.  
+              </p>
+              <a href="https://majuszko.github.io/FruitSlice/" class="cta">PLAY NOW</a>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-description has-margin-right">
+              
+              <h1>Arduino and Unity</h1>
+              <p>
+                The main idea of this experiment was to check how would Arduino work as a device to move a cube in the Unity scene.
+
+Used components: Arduino Nano and an ultrasound sensor.
+The ultrasound sensor was used to measure the distance to the nearest obstacle and depending on the measurement, the cube moved faster or slower (when the distance was shorter, the cube moved slower, and it moved faster when the distance was greater).
+              </p>
+              <a href="https://github.com/majuszko/Arduino_move_cube" class="cta" >SEE MORE</a>
+              
+            </div>
+            <div class="portfolio-img">
+              <img src="images/arduino/1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Skills</h1>
+            
+          </div>
+          <div class="my-skills" >
+              <div class="center">
+                <div class="skill">
+                    <div class="icon-container">
+                      <span class="symbol"><img src="fontawesome-free-5.15.2-web/svgs/brands/unity.svg" alt="" /></span>
+                    </div>
+                    <h1>Unity</h1>
+                    
+                  </div>
+      
+                  <div class="skill">
+                    <div class="icon-container">
+                      <span class="symbol"><img src="fontawesome-free-5.15.2-web/svgs/solid/code.svg" alt="" /></span>
+                    </div>
+                    <h1>C#</h1>
+                    
+                  </div>
+      
+                  <div class="skill">
+                    <div class="icon-container">
+                      <span class="symbol"><img src="fontawesome-free-5.15.2-web/svgs/brands/python.svg" alt="" /></span>
+                    </div>
+                    <h1 >Python</h1>
+                    
+                  </div>
+              </div>
+            
+
+          </div>
+          <div class="skill-soft">
+              <h1>Software</h1>
+              <h3>visual studio</h3>
+              <h3>visual studio code</h3>
+              <h3>rider</h3>
+              <h3>pycharm</h3>
+              <h3>macos, windows and linux</h3>
+              <h1>Soft skills</h1>
+              <h3>Effective communication skills</h3>
+              <h3>teamwork</h3>
+              <h3>Adaptability</h3>
+              <h3>Flexibility</h3>
+              <h3>Lifelong Learning</h3>
+          </div>
+        </div>
+      </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            
+          </div>
+          <p style="color: #191919; font-size: 130%;">
+            Hello there! My name is Maja Mrozińska and I'm a student of Automatic Control and Robotics with a specialization in Robots and Autonomous Systems at Poznan University of Technology.
+                                    This portfolio is a representation of my recent projects in Unity and C#. I'm a self-taught and I would love to countinuously improve my skill in this area.
+                                My passion for gaming started when I got my first console, which was an Atari obviously. Racing games became my favourite, so I've spent a 
+                            lot of time playing games like Need For Speed or WipeOut later. I also love mobile games and I would love to develop a completely new one someday. 
+                        I've spent so much time playing random games that one day I thought that maybe I should start making them. So I started my first game in python.
+                    It was a disaster. But I didn't give up. Later I read about Unity engine and I loved it. I had learnt some C# in the past so I was happy that I was familiar 
+                with it when I started scripting. It was really exciting, everyday I learn more and more about what is Unity capable of. Despite the fact, that I've been working
+            with Unity only for a couple of months, I'm totally sure I would like to become a true Unity Developer one day. </p>
+          <div class="social-media">
+            <ul class="nav-list">
+                <li>
+                    <a href="https://www.facebook.com/PoMoimLozkuJezdziCzolgITanczyMacarene" class="icon-link">
+                        <i class="fab fa-facebook-square" style="color: #f15025;"></i></a>
+                </li>
+              <li>
+                <a href="https://github.com/majuszko" class="icon-link">
+                <i class="fab fa-github-square" style="color: #f15025;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+          
+          <label for="subject>">Subject:</label>
+          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fa fa-chevron-up"></i>        
+      </div>
+      <p>&copy; 2021 Maja Mrozińska</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
